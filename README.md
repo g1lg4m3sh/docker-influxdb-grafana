@@ -3,7 +3,7 @@
 # + Grafana stack
 # + Telegraf
 
-Get the stack (only once):
+Clone repo:
 
 ```
 git clone https://github.com/nicolargo/docker-influxdb-grafana.git
@@ -13,14 +13,20 @@ docker pull influxdb
 docker pull telegraf
 ```
 
-Run your stack:
+Run:
 
 ```
-docker-compose up -d
-
+./run.sh
 ```
 
-Show me the logs:
+(OPTIONAL, recommended):
+Run with new db
+
+```
+./run.sh newdb
+```
+
+Show logs:
 
 ```
 docker-compose logs
