@@ -3,17 +3,7 @@
 # + Grafana stack
 # + Telegraf
 
-Clone repo:
-
-```
-git clone https://github.com/nicolargo/docker-influxdb-grafana.git
-cd docker-influxdb-grafana
-docker pull grafana/grafana
-docker pull influxdb
-docker pull telegraf
-```
-
-Run:
+Clone repo & Run:
 
 ```
 ./run.sh
